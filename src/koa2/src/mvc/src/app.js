@@ -15,3 +15,4 @@ app.use(router);
 app.listen(3000, "localhost", () => {
     console.log("server start at http://localhost:3000");
 });
+module.exports=app;
